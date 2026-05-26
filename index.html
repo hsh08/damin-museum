@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="다민박힌물관 — 임다민의 표정이 박힌 디지털 미술관" />
+  <title>다민박힌물관</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="nav__logo" href="#top">다민박힌물관</a>
+      <ul class="nav__links">
+        <li><a href="#exhibitions">전시</a></li>
+        <li><a href="#puzzle">퍼즐</a></li>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#visit">관람 안내</a></li>
+      </ul>
+      <button class="nav__toggle" type="button" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Damin-bakhin Museum · Est. 2026</p>
+        <h1 class="hero__title" id="hero-title">다민박힌물관</h1>
+        <p class="hero__subtitle">
+          표정이 화면에 <em>박힌</em> 순간을 모은<br />
+          임다민 단독 디지털 아카이브
+        </p>
+        <a class="hero__cta" href="#exhibitions">전시 관람하기</a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">↓</div>
+    </section>
+
+    <section class="exhibitions" id="exhibitions" aria-labelledby="exhibitions-title">
+      <div class="section-head">
+        <h2 id="exhibitions-title">현재 전시</h2>
+        <p>Permanent Collection · 임다민 시리즈</p>
+      </div>
+
+      <div class="gallery">
+        <article class="artwork" data-index="1">
+          <button class="artwork__trigger" type="button" aria-label="《평화의 두 손》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/임다민1.png" alt="《평화의 두 손》 — V자 손과 혀를 내민 초상" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">001</span>
+            <h3 class="artwork__title">《평화의 두 손》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">스튜디오 회색 배경 위, 양손 V와 혀가 동시에 등장하는 초기기.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 니트 스웨터</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork artwork--reverse" data-index="2">
+          <button class="artwork__trigger" type="button" aria-label="《천정을 향한 시선》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/임다민2.png" alt="《천정을 향한 시선》 — 눈을 위로 굴린 초상" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">002</span>
+            <h3 class="artwork__title">《천장을 향한 시선》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">하늘을 본다는 착각을 유도하는 안구 회전과 평화 제스처의 변주.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 리브 니트</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork" data-index="3">
+          <button class="artwork__trigger" type="button" aria-label="《체리 팝 콜라보》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/임다민3.png" alt="《체리 팝 콜라보》 — 체리 배경의 2인 초상" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">003</span>
+            <h3 class="artwork__title">《체리 팝 콜라보》</h3>
+            <p class="artwork__artist">임다민 외 1인</p>
+            <p class="artwork__desc">붉은 체리와 블루 버블이 만나는 초현실 배경 위의 듀얼 포트레이트.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 데님, 체리 소품</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork artwork--reverse" data-index="4">
+          <button class="artwork__trigger" type="button" aria-label="《뉴욕을 부르다》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/노래부르는 임다민.png" alt="《뉴욕을 부르다》 — 마이크를 든 무대 위의 노래" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">004</span>
+            <h3 class="artwork__title">《뉴욕을 부르다》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">Pearl 드럼과 Marshall 앰프 사이, 뉴욕 티셔츠와 마이크가 만나는 열정의 보컬 퍼포먼스.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 마이크, 연습실 목재</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork" data-index="5">
+          <button class="artwork__trigger" type="button" aria-label="《핑크 아라베스크》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/발레하는 임다민.png" alt="《핑크 아라베스크》 — 투투 차고 발레 포즈를 취한 모습" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">005</span>
+            <h3 class="artwork__title">《핑크 아라베스크》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">어두운 무대 위 스포트라이트, 시퀸 레오타드와 투투가 그리는 고전 무용의 한 줄기.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 투투, 발레 슬리퍼</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork artwork--reverse" data-index="6">
+          <button class="artwork__trigger" type="button" aria-label="《카니발 삼바》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/쌈바 추는 임다민.png" alt="《카니발 삼바》 — 블루·그린·옐로 시퀸 의상의 삼바 댄스" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">006</span>
+            <h3 class="artwork__title">《카니발 삼바》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">깃털과 시퀸, 브라질 국기 색이 흩날리는 무대. 흰 운동화가 의상과 극명하게 대비한다.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 시퀸, 깃털, 서도</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <article class="artwork" data-index="7">
+          <button class="artwork__trigger" type="button" aria-label="《붉은 깃털의 정열》 상세 보기">
+            <figure class="artwork__frame">
+              <img src="assets/정열의 댄스를 추는 임다민.png" alt="《붉은 깃털의 정열》 — 레드 시퀸 삼바 의상의 댄스" width="800" height="1000" loading="lazy" />
+            </figure>
+          </button>
+          <div class="artwork__meta">
+            <span class="artwork__number">007</span>
+            <h3 class="artwork__title">《붉은 깃털의 정열》</h3>
+            <p class="artwork__artist">임다민</p>
+            <p class="artwork__desc">골드 트림과 붉은 깃털이 무대 조명에 반짝이는, 정열이라는 제목 그대로의 댄스 작품.</p>
+            <dl class="artwork__info">
+              <div><dt>재료</dt><dd>디지털 인쇄, 레드 시퀸, 깃털</dd></div>
+              <div><dt>연도</dt><dd>2026</dd></div>
+            </dl>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="puzzle" id="puzzle" aria-labelledby="puzzle-title">
+      <div class="section-head">
+        <h2 id="puzzle-title">체험관 · 박힌 퍼즐</h2>
+        <p>Interactive Gallery · 3×3 미니 게임</p>
+      </div>
+
+      <div class="puzzle__wrap">
+        <p class="puzzle__intro">
+          전시 작품을 <strong>9등분</strong>한 뒤 섞었습니다.
+          조각 <strong>두 개</strong>를 끌어 맞바꾸거나, 차례로 탭해 서로 바꾸며 그림을 맞춰 보세요.
+        </p>
+
+        <div class="puzzle__toolbar">
+          <label class="puzzle__label" for="puzzle-image-select">퍼즐 그림</label>
+          <select class="puzzle__select" id="puzzle-image-select" aria-label="퍼즐에 사용할 작품 선택">
+            <option value="assets/임다민1.png">001 《평화의 두 손》</option>
+            <option value="assets/임다민2.png">002 《천장을 향한 시선》</option>
+            <option value="assets/임다민3.png">003 《체리 팝 콜라보》</option>
+            <option value="assets/노래부르는 임다민.png">004 《뉴욕을 부르다》</option>
+            <option value="assets/발레하는 임다민.png">005 《핑크 아라베스크》</option>
+            <option value="assets/쌈바 추는 임다민.png">006 《카니발 삼바》</option>
+            <option value="assets/정열의 댄스를 추는 임다민.png">007 《붉은 깃털의 정열》</option>
+          </select>
+          <button class="puzzle__btn" type="button" id="puzzle-shuffle">다시 섞기</button>
+          <span class="puzzle__stats" id="puzzle-stats" aria-live="polite">교환 0회</span>
+        </div>
+
+        <div
+          class="puzzle__board"
+          id="puzzle-board"
+          role="application"
+          aria-label="3×3 조각 교환 퍼즐"
+        ></div>
+
+        <p class="puzzle__hint" id="puzzle-hint">조각을 다른 조각 위로 끌어 놓거나, 두 조각을 차례로 탭해 서로 바꿔 주세요.</p>
+
+        <div class="puzzle__message puzzle__message--hidden" id="puzzle-win" role="status">
+          <p class="puzzle__message-title">퍼즐 완성!</p>
+          <p class="puzzle__message-text">작품이 제자리에 박혔습니다. 축하합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="about__grid">
+        <h2 id="about-title">박물관 소개</h2>
+        <div class="about__text">
+          <p>
+            <strong>다민박힌물관</strong>은 이름 그대로, 임다민의 얼굴이
+            사진 속에 <em>박혀</em> 버린 순간만을 엄선해 전시하는 온라인 미술관입니다.
+          </p>
+          <p>
+            박물관(博物館)이 아니라 박힌(박힌) 물관 — 진지한 미술관 틀 안에
+            장난스러운 표정과 평화 사인을 나란히 둡니다.
+            관람객 여러분께서는 웃음을 참지 않아도 됩니다. 그것이 본 전시의 의도입니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <h2 id="visit-title">관람 안내</h2>
+      <ul class="visit__list">
+        <li>
+          <span class="visit__label">운영 시간</span>
+          <span>24시간 (브라우저가 켜져 있는 한)</span>
+        </li>
+        <li>
+          <span class="visit__label">입장료</span>
+          <span>무료</span>
+        </li>
+        <li>
+          <span class="visit__label">소장 작품</span>
+          <span>7점 (임다민 시리즈)</span>
+        </li>
+        <li>
+          <span class="visit__label">체험</span>
+          <span>9등분 조각 교환 퍼즐 (체험관)</span>
+        </li>
+        <li>
+          <span class="visit__label">촬영</span>
+          <span>스크린샷 환영 · 플래시는 화면만 밝힙니다</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 다민박힌물관 · All expressions reserved.</p>
+  </footer>
+
+  <!-- 작품 확대 라이트박스 -->
+  <dialog class="lightbox" id="lightbox" aria-label="작품 상세 보기">
+    <button class="lightbox__close" type="button" aria-label="닫기">×</button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" src="" alt="" />
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <script src="script.js"></script>
+  <script src="puzzle.js"></script>
+</body>
+</html>
